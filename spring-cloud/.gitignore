@@ -1,0 +1,14 @@
+/bin/
+/dist/
+/out/
+/.idea/
+/target/
+spring-cloud.iml
+/config-server/target/
+/config-server/config-server.iml
+/discovery/target/
+/discovery/discovery.iml
+/ribbon-server/target/
+/ribbon-server/ribbon-server.iml
+/service1/target/
+/service1/service1.iml

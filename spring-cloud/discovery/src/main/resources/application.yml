@@ -1,0 +1,19 @@
+server:
+  port: 8080 #注册服务端口
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+    serviceUrl:
+      defaultZone: http://admin:admin@localhost:8080/eureka/
+    healthcheck:
+      enabled: true
+#安全认证配置
+security:
+  basic:
+    enabled: true
+  user:
+    name: admin  # 用户名
+    password: admin   # 用户密码

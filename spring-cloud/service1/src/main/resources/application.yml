@@ -1,0 +1,15 @@
+#注册到eureka显示的项目名称
+spring:
+  application:
+    name: service1
+#设置注册服务器的地址
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://admin:admin@localhost:8080/eureka/
+  #设置实例，不设置显示的可能是主机名称
+  instance:
+    hostname: localhost
+    instance-id: http://localhost:8010
+server:
+  port: 8010
